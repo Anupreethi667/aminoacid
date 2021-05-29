@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+ }
+
+.header {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(istockphoto-1167361467-612x612.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative; 
+
+}
+
+nav{
+display:flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+}
+
+.text-box{
+	width:90%;
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+} 
+
+.text-box h1{
+	font-size: 62px;
+}
+
+.text-box p{
+	margin:10px 0 40px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.first {
+	width=80%;
+	margin : auto;
+	text-align: center;
+	padding-top:100px;
+}
+
+.first h1 { 
+	font-size:36px;
+	font-weight:600;
+}
+
+.first p {
+	color : #777;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 22px;
+	padding : 10px;
+}
+
+.row {
+	margin-top: 2%;
+	display: flex;
+	justify-content:space-between;
+}
+
+.one {
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom : 2%;
+text-align:center;
+}
+
+.one img {
+border-radius: 10px;
+}
+
+.row2 {
+	margin-top: 2%;
+	display: flex;
+	justify-content:space-between;
+}
+
+.two {
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom : 2%;
+margin-left : 10%;
+text-align:center;
+}
+
+.two img {
+border-radius: 10px;
+}
+
+.three {
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom : 2%;
+margin-right : 10%;
+text-align:center;
+}
+
+.three img {
+border-radius: 10px;
+}
+
+.cta {
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(contact.jpg);
+	background-position : center;
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.cta h1{
+	color: #fff;
+	margin-bottom: 40px;
+	padding: 0;
+	font-size: 30px;
+}
+
+.hero-btn {
+	display: inline-block;
+	text-decoration: none;
+	color : #fff;
+	border : 1px solid #fff;
+	padding : 12px 34px;
+	font-size: 13px;
+	background : transparent;
+	position : relative;
+	cursor : pointer;
+}
+
+.hero-btn:hover{
+	border: 1px solid #f44336;
+	background : #f44336;
+	transition: 1s;
+}
+
+	

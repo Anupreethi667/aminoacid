@@ -1,0 +1,86 @@
+*{
+	margin:0 auto;
+	padding:0;
+	font-family:Century Gothic;
+	box-sizing:border-box;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(nack.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	opacity:0.95;
+}
+
+
+.main{
+	background:white;
+	text-align:center;
+	position:fixed;
+	width:100%;
+	top: 0;
+  	z-index: 100;
+}
+
+.main ul{
+	display:inline-flex;
+	list-style:none;
+	color:#000000;
+}
+
+.main ul li {
+	width:200px;
+	margin:6px;
+	padding:10px;
+	font-size:20px;
+}
+
+.main ul li a{
+	text-decoration:none;
+	color:#000000;
+}
+
+.main ul li:hover{
+ 	background:#FFE4E1;
+}
+
+.sub{
+	display:none;
+}
+
+.main ul li:hover .sub{
+	display:block;
+	position:absolute;
+	background:white;
+	margin-top:10px;
+	margin-left:-15px;
+}
+
+.main ul li:hover .sub ul{
+	display:block;
+	margin:10px;
+}
+
+.main ul li:hover .sub ul li{
+	width:175px;
+	padding:10px;
+	border-radius:0;
+	text-align:center;
+}
+
+
+
+.title{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.title h1{
+	color:#fff;
+	font-size:55px;
+}
+
